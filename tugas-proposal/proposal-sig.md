@@ -1,12 +1,16 @@
-<h1>Aplikasi Pemetaan Daerah Yang Minim Mendapatkan Hak Pelayanan</h1>
+<h1>Sistem Informasi Geografis Perpustakaan Kota Bandung</h1>
 <h2> Deskripsi Masalah</h2>
-<p> Banyaknya daerah di pedalaman yang kurang merasakan manfaat dari pelayanan kemasyarakatan oleh pemerintahan </p>
+<p> Seiring berkembangnya gadget dan teknologi informasi, cara mencari ilmu dengan cara konservatif sudah mulai ditinggalkan. Namun, bagi para akademisi untuk membuat sebuah karya ilmiah perlu mencari referensi yang terpercaya. Sayangnya, referensi yang terpercaya dan terverifikasi tidak banyak ada di internet. Oleh karena itu untuk mencari referensi yang terpercaya, bisa mencari ke lembaga yang terpercaya dalam hal pengarsipan salah satunya perpustakaan. </p>
 <h2> Deskripsi Solusi </h2>
-<p> Diperlukan aplikasi yang mampu memetakan daerah mana saja yang sekiranya jarang menerima pelayanan kemasyarakatan berbasis peta tematik untuk memaksimalkan pelayanan </p>
+<p>  Dikarenakan di era milenial ini mudah mencari informasi, maka remaja milenial dinilai sedikit sekali yang mengenal perpustakaan. Dibuatnya sistem ini untuk mempermudah mencari lokasi perpustakaan yang ada di Kota Bandung </p>
 <h2> Use Case </h2>
 <ul>
-  <li>User petugas daerah mampu menginput data kedalam basis data </li>
-  <li>Sistem mampu membuat peta tematik sesuai dengan data pada basis data </li>
+  <li>Sistem mampu menampilkan list perpustakaan di Kota Bandung </li>
+  <li>Sistem mampu menampilkan sebaran lokasi perpustakaan di Kota Bandung </li>
+  <li>Sistem mampu menampilkan detail dan lokasi perpustakaan di Kota Bandung </li>
+  <li>Sistem mampu menambahkan data perpustakaan </li>
+  <li>Sistem mampu mengubah data perpustakaan </li>
+  <li>Sistem mampu menghapus data perpustakaan </li>
 </ul>
 <h2> Struktur Data </h2>
 <h3>Tempat</h3>
@@ -20,54 +24,47 @@
   </thead>
   <tbody>
     <tr>
-      <td>ID</td>
-      <td>String</td>
-      <td>A11cisarantenkulon</td>
-    </tr>
-    <tr>
-      <td>Nama Tempat</td>
-      <td>String</td>
-      <td>Cisaranten Kulon</td>
-    </tr>
-    <tr>
-      <td>Status</td>
+      <td>id_perpus</td>
       <td>Integer</td>
-      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Nama Perpustakaan</td>
+      <td>String</td>
+      <td>Bapusipda Bandung</td>
+    </tr>
+    <tr>
+      <td>Npsn</td>
+      <td>String</td>
+      <td>9192012933829</td>
     </tr>
      <tr>
-      <td>Koordinat</td>
-      <td>Poin</td>
-      <td>[6.55.28. - 107.4.1.1]</td>
+      <td>Nomor Telepon</td>
+      <td>Integer</td>
+      <td>081222649889</td>
     </tr>
       <tr>
-      <td>Area</td>
-      <td>Polygon</td>
-      <td>[[6.55.28. - 107.4.1.1], [6.55.28. - 107.4.1.1], [6.55.28. - 107.4.1.1]]</td>
+      <td>Alamat</td>
+      <td>String</td>
+      <td>JL. AH Nasution no 165</td>
+    </tr>
+    <tr>
+      <td>Kota</td>
+      <td>String</td>
+      <td>Kota Bandung</td>
+    </tr>
+    <tr>
+      <td>Provinsi</td>
+      <td>String</td>
+      <td>Provinsi Jawa Barat</td>
+    </tr>
+    <tr>
+      <td>Lokasi</td>
+      <td>Point</td>
+      <td>[-6263939402, 10283830]</td>
     </tr>
   </tbody>
 </table>
-<h3>User</h3>
-<table>
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>Nama User</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>AmBC1197050070</td>
-      <td> Anwar </td>
-      <td> Admin </td>
-    </tr>
-    <tr>
-      <td>AmBA2013848922</td>
-      <td> Idham </td>
-      <td> User </td>
-    </tr>
-  </tbody>
-  </table>
   <br>
   <h2>Mockup UX</h2>
 
