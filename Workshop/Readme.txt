@@ -1,6 +1,6 @@
 #1. Workshop Exploring GIS for Science and Technology
 
-![image.png]( {https://github.com/mochamadanwar403/2223-IF217A02-sig/issues/1#issue-1504037228} )
+![image.png]( {webinargis.png} )
 
 
 Penyelenggara : March GIS
